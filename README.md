@@ -61,7 +61,7 @@ The return value should be an array that describes the direction:
 -   `['down', 'right']`
 -   `['down', 'left']`
 
-If there is no direction to go to (possibly arrived at the destination), return an empty array `[]`
+If there is no direction to go to (possibly arrived at the destination), return `null`
 
 These should be the indications into which direction on the map the sleigh has to fly towards.
 
